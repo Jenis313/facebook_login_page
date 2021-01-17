@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.bg{
+    height: 700px;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+}
+.bg .container{
+    min-width: 70vw;
+    margin: auto;
+   
+}
+.inner-cont{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    max-width: 55%;
+}
+.left h2{
+    color: #1877f2 ;
+    font-size: 5em;
+    margin-bottom: 5px;
+}
+.left p{
+    font-weight: 500;
+    font-size: 2.1em;
+}
+.right{
+    width: 388px;
+}
+.right form{
+    background-color: #fff;
+    padding:10px 20px;
+    border-radius: 9px;
+    box-shadow: 0 0 5px #ccc;
+
+
+}
+.hr{
+    height: 0.1px;
+    border-top: .1px solid #ccc;
+    margin-bottom: 2em;
+}
+.right .fill, .forget, .sign{
+    display: block;
+    width: 100%;
+    outline: none;
+    margin: .7em auto;
+    font-size: 1.3em;
+    padding: 1em;
+    border-radius: 5px;
+    border: .1xpx solid #ddd;
+
+
+}
+.one, .two{
+    border: .1px solid #ddd;
+
+}
+.right .three{
+    background-color: #1877f2;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: .8em;
+}
+.forget{
+    color: #1877f2;
+    text-decoration: none;
+    text-align: center;
+}
+.sign{
+    text-align: center;
+    background-color: #42b72a;
+    width: 60%;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+@media (max-width: 900px){
+    .inner-cont{
+        display: block;
+        width: 388px;
+        margin:auto;
+    }
+    .inner-cont .left{
+        max-width: 100%;
+        text-align: center;
+    }
+    .left p{
+        margin-bottom: 1em;
+    }
+}
